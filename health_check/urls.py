@@ -1,4 +1,4 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import url
 from health_check import views
 import health_check
 health_check.autodiscover()
